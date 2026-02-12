@@ -56,7 +56,7 @@ export default function Nivel1() {
         <>
             <form onSubmit={handleSubmit}>
 
-                <div>Ingresa cuantos anios tenes</div>
+                <div>Ingresa cuantos años tenes</div>
 
                 <input type="text" name="" id="" onChange={(e) => {setAnswer(e.target.value) }} />
 
