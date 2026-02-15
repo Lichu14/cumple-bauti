@@ -76,7 +76,7 @@ export default function Nivel3() {
             }
 
             {
-                check && <Link to="/Level4">
+                check && <Link to="/Popeyes">
                     <button>Continuar</button>
                 </Link>
             }

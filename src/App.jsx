@@ -8,6 +8,7 @@ import Nivel1 from './Niveles/Nivel1'
 import Nivel2 from './Niveles/Nivel2'
 import Nivel3 from './Niveles/Nivel3'
 import Nivel4 from './Niveles/Nivel4'
+import Popeyes from './Niveles/Popeyes'
 import LevelFinal from './Niveles/LevelFinal'
 import Final from './Niveles/Final'
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Level1" element={<Nivel1 />} />
         <Route path="/Level2" element={<Nivel2 />} />
         <Route path="/Level3" element={<Nivel3 />} />
+        <Route path="/Popeyes" element={<Popeyes />} />
         <Route path="/Level4" element={<Nivel4 onStopMusic={handleStopMusic} />} />
         <Route path="/levelFinal" element={<LevelFinal />} />
         <Route path="/final" element={<Final />} />
